@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*.clear:after{*/
+/*    content: '';*/
+/*    display: block;*/
+/*    clear: both;*/
+/*}*/
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+li{
+    list-style: none;
+}
+
+/*公共头部*/
+.publicHeader{
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+}
+.publicHeader h1{
+    float: left;
+    color: rgba(62, 90, 231, 0.61);
+    font-size: 22px;
+    padding-left:20px;
+}
+.publicHeaderR{
+    float: right;
+    color: #070300;
+    margin-right: 50px;
+}
+.publicHeaderR p{
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+/*公共部分主体内容*/
+.publicMian{
+    border-top: 1px solid #c2ccd5;
+    display: flex;  /*变为弹性盒模型*/
+    display: -webkit-flex;
+    background: #fff;
+}
+
+/*左侧选择框*/
+.left{
+    width: 150px;
+    border-right: 1px solid #d2e5fc;
+    min-height: 600px;
+}
+.leftH2{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.list{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*右边*/
+.right{
+    width: 85%;
+}
+/*搜索信息栏*/
+.search{
+    height:50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #d2e5fc;
+}
+#searchbutton{
+    margin-left: 60px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+#billaddbutton{
+    margin-left: 230px;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+}
+/*.search input[type='text']{*/
+/*    width: 200px;*/
+/*    height: 30px;*/
+/*    outline: none;*/
+/*    padding-left: 10px;*/
+/*    border: 1px solid #8ab2d5;*/
+/*    border-radius: 4px;*/
+/*}*/
+/*.search input[type='button']{*/
+/*    margin-left: 20px;*/
+/*    width: 100px;*/
+/*    padding: 0 20px;*/
+/*    height: 30px;*/
+/*    border: 1px solid #7ba92c;*/
+/*    border-radius: 4px;*/
+/*    color: #fff;*/
+/*    font-weight: bold;*/
+/*    background:#87c212 url("../images/search.png") 10px center no-repeat;*/
+/*}*/
+/*.search input[type='button']:focus{*/
+/*    outline: none;*/
+/*    background-color: #5d8410;*/
+/*}*/
+/*.search a{*/
+/*    width: 80px;*/
+/*    padding-left:40px;*/
+/*    float: right;*/
+/*    margin: 10px 60px;*/
+/*    height: 30px;*/
+/*    line-height: 30px;*/
+/*    border: 1px solid #0c89de;*/
+/*    border-radius: 4px;*/
+/*    color: #fff;*/
+/*    font-weight: bold;*/
+/*    background:#47acf1 url("../images/tianjia.png") 10px center no-repeat;*/
+/*    display: inline-block;*/
+/*}*/
+/*.search a:hover,.search a:active{*/
+/*    background-color: #0778c5;*/
+/*}*/
+/*.search span{*/
+/*    margin-right: 10px;*/
+/*}*/
+/*.search select{*/
+/*    margin: 10px;*/
+/*    width: 100px;*/
+/*    height: 30px;*/
+/*    border-radius: 4px;*/
+/*    border: 1px solid #0c89de;*/
+/*    outline: none;*/
+/*}*/
+
+/*底部*/
+.footer{
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+    color: #070300;
+}
+
+/*#searchbutton{*/
+/*    margin-left: 20px;*/
+/*    width: 100px;*/
+/*    padding: 0 20px;*/
+/*    height: 30px;*/
+/*    border: 1px solid #7ba92c;*/
+/*    border-radius: 4px;*/
+/*    color: #fff;*/
+/*    font-weight: bold;*/
+/*    background:#87c212 url("../images/search.png") 10px center no-repeat;*/
+/*}*/
+/*#searchbutton:focus{*/
+/*    outline: none;*/
+/*    background-color: #5d8410;*/
+/*}*/
+
+
+
+
+
+
+
+
+
